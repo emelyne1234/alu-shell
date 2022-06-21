@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 echo "$!"
+Store the pid of the last command in a variable named foo: foo=$!
+Print it, run: echo "$foo"
