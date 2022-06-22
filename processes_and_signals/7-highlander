@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displaying content indefinitely when receibing a sigtem signal
+Ctrl+c
