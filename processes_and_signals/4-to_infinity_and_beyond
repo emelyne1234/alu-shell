@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 #bash script that displays To infinity and beyond indefinitely
 while :
-do
-	echo "sleep 2"
-done	
+echo "Press[CTRL+c]"	
