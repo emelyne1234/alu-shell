@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#executing the file and killing ctrl+c
+echo "$!"
