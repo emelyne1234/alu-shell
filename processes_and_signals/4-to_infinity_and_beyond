@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 #bash script that displays To infinity and beyond indefinitely
-Ctrl + C @ sleep 2	
+a=1
+while [ $a -ge 1 ]
+do
+echo "To infinity and beyond"
+sleep 2
+((a++))	
