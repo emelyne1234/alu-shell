@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# stopping a file
-sudo kill -9 4-to_infinity_and_beyond_id
+# stopping a file 
+kill -9 -1
