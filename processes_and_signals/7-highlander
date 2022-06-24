@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
-# displaying content indefinitely when receibing a sigtem signal
-kill 123 543 2341 3453 
+# displaying content "Infinity to beyond" indefinitely
+# displaying "I am invincible!!!" when receivng a SIGTERM signal
+trap "echo 'I am invincible!!!'" SIGTERM
+a=1
+while [ $a -ge 1 ]
+do
+	echo 'To infinity and beyond'
+	sleep 2
+	((a++))
+done
